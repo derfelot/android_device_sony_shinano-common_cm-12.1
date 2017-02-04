@@ -73,7 +73,10 @@ PRODUCT_COPY_FILES += \
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
-    e2fsck
+    e2fsck \
+    make_f2fs \
+    fsck.f2fs \
+    fibmap.f2fs
 
 # GPS
 PRODUCT_COPY_FILES += \
